@@ -1,3 +1,8 @@
+Your fork will not automatically be in sync, you have to do it manually. This is done in two steps: fetching and merging
+    *cd into "441a-Senior-Project" folder
+    *To fetch, type "git fetch upstream"
+    *To merge, type "git merge upstream/master"
+
 After creating a new file or modifying an exiting one:
 
     *Save to "441a-Senior-Project" as you normally would and open terminal
@@ -12,3 +17,5 @@ After creating a new file or modifying an exiting one:
         *"committing" basically just confirms your changes to the files
     
     *So far, you've just changed files on your own computer. To push those changes to the repo, type "git push origin master" in terminal and press enter
+    
+    List of git commands found here: http://www.dataschool.io/git-quick-reference-for-beginners/
