@@ -1,0 +1,14 @@
+After creating a new file or modifying an exiting one:
+
+    *Save to "441a-Senior-Project" as you normally would and open terminal
+    
+    *cd into "441a-Senior-Project" folder
+    
+    *Check status of additions/modification by typing "git status" in terminal and press enter
+        *any files in red means that it has not been "staged" for committing
+        *type "git add filename" to stage files for committing and press enter
+        
+    *To commit, use: git commit -m "comment on nature of additions/modifications" and press enter
+        *"committing" basically just confirms your changes to the files
+    
+    *So far, you've just changed files on your own computer. To push those changes to the repo, type "git push origin master" in terminal and press enter
